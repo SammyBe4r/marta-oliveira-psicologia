@@ -282,5 +282,20 @@
         <span>© <span id="current-year">2026</span> Marta Oliveira</span>
       </div>
     </footer>
+
+    <div class="music-player">
+      <button
+        class="music-toggle"
+        id="music-toggle"
+        type="button"
+        aria-pressed="false"
+        aria-describedby="music-status"
+      >
+        <span class="music-note" aria-hidden="true">♪</span>
+        <span class="music-label">Ouvir música tranquila</span>
+        <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+      <span class="visually-hidden" id="music-status" role="status" aria-live="polite"></span>
+    </div>
   </body>
 </html>
